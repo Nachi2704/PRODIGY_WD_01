@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 2000px; /* For scrolling effect */
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    padding: 15px 0;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+.navbar.scrolled {
+    background: linear-gradient(to right, #141e30, #243b55);
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover {
+    color: yellow;
+}
+.section {
+    padding: 100px 20px;
+    text-align: center;
+}
+#home { background: #f4f4f4; }
+#about { background: #ddd; }
+#services { background: #bbb; }
+#contact { background: #999; }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 2000px; /* For scrolling effect */
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    padding: 15px 0;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+.navbar.scrolled {
+    background: linear-gradient(to right, #141e30, #243b55);
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover {
+    color: yellow;
+}
+.section {
+    padding: 100px 20px;
+    text-align: center;
+}
+#home { background: #f4f4f4; }
+#about { background: #ddd; }
+#services { background: #bbb; }
+#contact { background: #999; }
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer a {
+    color: #1e90ff;
+    text-decoration: none;
+}
